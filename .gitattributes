@@ -1,0 +1,7 @@
+# Alle Textdateien in LF im Repo ablegen, lokale EOLs nach OS handhaben
+* text=auto
+
+# Beispiele für feste LF-Endungen (empfohlen für HA-Python-Code):
+*.py     text eol=lf
+*.json   text eol=lf
+*.yaml   text eol=lf

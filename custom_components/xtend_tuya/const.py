@@ -730,6 +730,39 @@ class XTDPCode(StrEnum):
     WORK_STATUS = "WorkStatus"
     XT_COVER_INVERT_CONTROL = "xt_cover_invert_control"
     XT_COVER_INVERT_STATUS = "xt_cover_invert_status"
+    CURSET = "CurSet"  # added by dlq patch
+    CUR_A = "Cur_A"  # added by dlq patch
+    CUR_B = "Cur_B"  # added by dlq patch
+    CUR_C = "Cur_C"  # added by dlq patch
+    EP_A = "EP_A"  # added by dlq patch
+    EP_B = "EP_B"  # added by dlq patch
+    EP_C = "EP_C"  # added by dlq patch
+    EP_T = "EP_T"  # added by dlq patch
+    EVENT = "Event"  # added by dlq patch
+    FUC_AUTOCLOSE = "Fuc_AutoClose"  # added by dlq patch
+    FUC_GY = "Fuc_GY"  # added by dlq patch
+    FUC_GZ = "Fuc_GZ"  # added by dlq patch
+    FUC_LEAKAGE = "Fuc_Leakage"  # added by dlq patch
+    FUC_QY = "Fuc_QY"  # added by dlq patch
+    FUC_TEMP = "Fuc_Temp"  # added by dlq patch
+    LEAKAGESET = "LeakageSet"  # added by dlq patch
+    OVERVOLSET = "OverVolSet"  # added by dlq patch
+    PW_A = "Pw_A"  # added by dlq patch
+    PW_B = "Pw_B"  # added by dlq patch
+    PW_C = "Pw_C"  # added by dlq patch
+    SOFTVERSION = "SoftVersion"  # added by dlq patch
+    TEMP_A = "Temp_A"  # added by dlq patch
+    TEMP_B = "Temp_B"  # added by dlq patch
+    TEMP_C = "Temp_C"  # added by dlq patch
+    TEMP_N = "Temp_N"  # added by dlq patch
+    TODEFAULTSET = "ToDefaultSet"  # added by dlq patch
+    UNDERVOLSET = "UnderVolSet"  # added by dlq patch
+    VOL_A = "Vol_A"  # added by dlq patch
+    VOL_B = "Vol_B"  # added by dlq patch
+    VOL_C = "Vol_C"  # added by dlq patch
+    FUC_POWER = "fuc_power"  # added by dlq patch
+    LEAKAGE_CURRENT = "leakage_current"  # added by dlq patch
+    PW_T = "pw_t"  # added by dlq patch
 
 @dataclass
 class Country:
