@@ -29,7 +29,8 @@ except Exception:
 _GENERIC_DESCRIPTORS: Tuple[XTSensorEntityDescription, ...] = tuple(
     XTSensorEntityDescription(
         key=code,
-        translation_key=str(code).lower(),
+        name=str(code).replace("_", " ").title(),
+        translation_key=None,
         state_class=SensorStateClass.MEASUREMENT,
         device_class=None,
         entity_category=EntityCategory.DIAGNOSTIC,
